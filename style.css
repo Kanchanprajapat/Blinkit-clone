@@ -1,0 +1,158 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+nav {
+  width: 100vw;
+  position: sticky;
+  top: 50px;
+  background-color: white;
+  z-index: 2;
+}
+#vertical_line {
+  height: 80px;
+  border-right: 2px solid #f2f2f2;
+}
+#nav_delivery_section {
+  font-size: 13px;
+}
+#search_bar {
+  width: 40%;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  padding-left: 15px;
+}
+#search_bar > input {
+  width: 90%;
+  border: none;
+  height: 45px;
+  background-color: transparent;
+}
+#hero_section {
+  width: 85%;
+  margin-left: 40px;
+}
+#categories_section {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrapper {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.list {
+  text-wrap: nowrap;
+}
+.list > img {
+  margin-inline: 15px;
+}
+.category_section {
+  width: 85%;
+  margin: auto;
+}
+.list2 {
+  overflow: hidden;
+  overflow-x: scroll;
+  text-wrap: nowrap;
+}
+.my_card {
+  width: 200px;
+  display: inline-block !important;
+  margin-inline: 10px;
+}
+.my_card > img {
+  width: 80%;
+  margin: auto;
+}
+.card_timer {
+  font-size: 12px;
+  background-color: #f8f8f8;
+  padding: 3px;
+  width: fit-content;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.card_weight {
+  color: #696969;
+  font-size: 15px;
+}
+footer {
+  width: 85%;
+  margin: auto;
+}
+#footer_row_3 {
+  color: #666666;
+  font-size: 13px;
+  text-align: justify;
+  padding-top: 40px;
+}
+#social_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.social_icon {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+}
+#footer_row_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+#footer_row_2 > p {
+  width: 50%;
+  color: #666666;
+  font-size: 12px;
+}
+#downloads {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#downloads > h4 {
+  color: #666666;
+  font-size: 15px;
+}
+#downloads > img {
+  width: 120px;
+}
+#social_icons {
+  gap: 15px;
+}
+#footer_row_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#table_1 {
+  flex: 1;
+}
+#table_2 {
+  flex: 2;
+}
+table {
+  width: 100%;
+}
+td {
+  color: #666666;
+}
+.list2 {
+  box-sizing: border-box;
+}
